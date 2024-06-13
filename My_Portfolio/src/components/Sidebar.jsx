@@ -1,7 +1,8 @@
 // import React from 'react'
 import SocialNetworks from "./SocialNetworks";
 import Avatar from "../img/me.jpeg";
-import '..//styles/components/sidebar.sass';
+import '../styles/components/sidebar.sass';
+
 
 
 const Sidebar = () => {
@@ -11,7 +12,7 @@ const Sidebar = () => {
     <img src={Avatar} alt="Alberto Junior" />
     <p className="title"> Developer</p>
     <SocialNetworks/>
-    <p>informacoes de contacto</p>
+    {/* <InformationContainer/> */}
     <a href="" className="btn">
         Download Curriculum
     </a>
