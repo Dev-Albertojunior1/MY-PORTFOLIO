@@ -2,9 +2,9 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import "../styles/components/socialnetworks.sass";
 
 const socialNetworks = [
-  { name: "linkedin", icon: <FaLinkedinIn />, url: "https://github.com/Dev-Albertojunior1" },
+  { name: "linkedin", icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/alberto-junior-165b86295/" },
   { name: "github", icon: <FaGithub />, url: "https://github.com/Dev-Albertojunior1" },
-  { name: "instagram", icon: <FaInstagram />, url: "https://www.instagram.com/seu-usuario" },
+  { name: "instagram", icon: <FaInstagram />, url: "https://www.instagram.com/albertojunior98/" },
 ];
 
 const SocialNetworkContainer = () => {

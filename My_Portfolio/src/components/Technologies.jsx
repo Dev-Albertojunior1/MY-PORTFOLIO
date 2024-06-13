@@ -1,4 +1,6 @@
 import {
+    DiJava,
+    DiPhp,
     DiHtml5,
     DiCss3,
     DiJsBadge,
@@ -10,25 +12,26 @@ import {
   import "../styles/components/technologies.sass";
   
   const technologies = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-    { id: "css", name: "CSS3", icon: <DiCss3 /> },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-    { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
-    { id: "mysql", name: "MySQL", icon: <DiMysql /> },
-    { id: "react", name: "React", icon: <DiReact /> },
+    { id: "java", name: "Java", icon: <DiJava />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p>},
+    { id: "php", name: "PHP", icon: <DiPhp /> ,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p>},
+    { id: "html", name: "HTML5", icon: <DiHtml5 />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p> },
+    { id: "css", name: "CSS3", icon: <DiCss3 />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p> },
+    { id: "js", name: "JavaScript", icon: <DiJsBadge />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p> },
+    { id: "node", name: "Node.js", icon: <DiNodejsSmall />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p> },
+    { id: "mysql", name: "MySQL", icon: <DiMysql />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p> },
+    { id: "react", name: "React", icon: <DiReact />,description: <p>Uma biblioteca JavaScript para construir interfaces de usuário.</p> },
   ];
   
   const Technologies = () => {
     return (
       <section className="technologies-container">
-        <h2>Tecnologias</h2>
+        <h2>Technologies</h2>
         <div className="technologies-grid">
           {technologies.map((tech) => (
             <div className="technology-card" id={tech.id} key={tech.id}>
               {tech.icon}
               <div className="technology-info">
-                <h3>{tech.name}</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p className="subtext">{tech.description}</p>
               </div>
             </div>
           ))}

@@ -3,18 +3,15 @@ import React from 'react'
 const AboutContainer = () => {
   return (
     <section className="about-container">
-      <h2>Sobre</h2>
+      <h2>About</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, dolores!
-        Repellendus eius consequuntur, voluptate deserunt perferendis mollitia
-        debitis est autem aperiam necessitatibus beatae assumenda illo rem
-        architecto quis dolor quae.
+      Hi, I'm Alberto Junior, a software developer with a passion for creating efficient and 
+      innovative solutions. With expertise in Backend Development, Sever, Networking, Cybersecurity, Fullstack Development,
+       System Analisys.
       </p>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis
-        aperiam, odit nihil placeat, dolorum sequi reprehenderit fugiat,
-        distinctio provident impedit modi neque sapiente voluptate voluptates.
-        Maiores sint at dolores?
+      I enjoy building scalable and user-friendly applications using technologies like 
+      Java , Spring-Boot,Java-Script, PHP, React, Node.js,MySQL,HTML5,CSS3. Let's connect and build something amazing together!.
       </p>
     </section>
   )
